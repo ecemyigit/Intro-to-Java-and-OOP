@@ -219,7 +219,7 @@ if (index>=0&&index<=arr.size()) {
         // calculate how many elements left in the list from given index
 
         /*
-         * let's say we have to alice(2, 7) remove and list size is also 7 now starting
+         * let's say we have to splice(2, 7) remove and list size is also 7 now starting
          * from index 0 to index = list size -1 range of list = 0,6 noOfDeletions = 6-2
          * = 4 elements left = 4 but 7>4 therefore return empty list
          */
@@ -232,7 +232,7 @@ if (index>=0&&index<=arr.size()) {
         }
 
         // else starting from the given index delete elements after storing element
-        // in removeList and decrease count_element by 1 atv last return list
+        // in removeList and decrease count_element by 1 last return list
 
         int i = index;
         while (i < this.arr.size() && num != 0) {
